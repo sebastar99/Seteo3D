@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecera{
+    width: 100%;  
+}
+
+.listas{
+    margin: 0 auto;
+    
+}
+
+.logo{
+    align-self: start;
+    height: 100px;
+    width: 100px;
+}
+
+
+.parrafo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Nuosu SIL', serif;
+}
+
+
+.imagen{
+    width: 100%;
+}
+
+.iconoo{
+    height: 25px;
+    width: 25px;    
+}
+
+footer{
+    background-color: lightblue;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body{
+    background-color: white;
+}
+
+.main-trabajos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.menu-fotos{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgt{
+    height: 250px;
+    width: 300px; 
+    margin: 1rem;
+}
+.parrafot{
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Nuosu SIL', serif;
+    color: black;
+}
+.parrafou{
+    margin-top: 40px;
+    margin-left: 220px;
+    font-size: 20px;
+}
+.mapa{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.parrafocaba{
+    margin-top: 20px;
+    margin-left: 250px;
+    font-size: 20px;
+}
+
+.imga{
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 250px;
+    width: 300px; 
+}
+.click{
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+}
+.mas{
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.footerq{
+    margin-top: 30px;
+    padding-top: 10px;
+    background-color: lightblue;
+    height: 16vh;
+    width: 100%;
+    bottom: 0;
+}
+
+.h1{
+    margin-left: 50%px;
+    font-size: 35px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.parrafoq{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.banner{
+    width: 100%;
+    height: 200px;
+
+}
+
+.banner2{
+    width: 100%;
+    height: 200px;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.grid-cabecera{
+    display: flex;
+    background-color: lightblue;
+}
+
+.grid-list{
+    display: flex;
+    margin: 1.5rem;
+    list-style: none;
+    align-items: center;
+} 
+.grid-list a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+/*Inicio nosotros grid imagenes*/
+.grid-nosotros{
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 1fr;
+    justify-items: start;
+    align-items: center;
+}
+
+.grid-info{
+    display: grid;
+    width: 100%;
+    justify-items: center;
+} 
+/*grid main index*/
+.grid-main{
+    display: grid;
+    grid-template-areas:
+     "impresoras resina"
+    "torno filamento"
+    "carrousel carrousel";
+    grid-template-rows: repeat(3, 1fr);   
+    grid-template-columns: repeat(2, 1fr);
+} 
+
+.impresoras{
+    grid-area: impresoras;
+    display: flex;
+    width: fit-content;
+    align-content: center;
+}
+.resina{
+    grid-area: resina;
+    display: flex;
+    width: fit-content;
+}
+.torno{
+    grid-area: torno;
+    display: flex;
+    width: fit-content;
+}
+.filamento{
+    grid-area: filamento;
+    display: flex;
+    width: fit-content;
+}
+.grid-carrousel{
+    grid-area: carrousel;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.img1{
+    width: 40%;
+    height: 60%;
+    align-self: center;
+}
+
+.img4{
+    width: 35%;
+}
+/*fin main index*/
+
+@media screen and (max-width: 720px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-main{
+        display: flex;
+        height: fit-content;
+        flex-direction: column;
+        margin: 0.5rem;
+    } 
+    .grid-list a{
+        font-size: 1rem;
+    }
+    .grid-cabecera{
+        display: flex;
+        flex-direction: column;
+    }
+    .img2{
+        width: 40%;
+    }
+    .img3{
+        width: 40%;
+    }
+    .parrafo{
+        font-size: 1rem;
+    }
+    footer{
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .menu-fotos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.8rem;
+     }
+     .parrafot{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 0.8rem;
+     }
+}
+
+@media screen and (min-width: 481px) and (max-width: 960px){
+    .menu-fotos{
+        display: grid;
+        grid-template-areas: "img1 img2"
+        "img3 img4"
+        "img5 img6"
+        "img7 img8";
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .img1{
+        grid-area: img1;
+    }
+    .imgt2{
+        grid-area: img2;
+    }
+    .imgt3{
+        grid-area: img3;
+    }
+    .imgt4{
+        grid-area: img4;
+    }
+    .imgt5{
+        grid-area: img5;
+    }
+    .imgt6{
+        grid-area: img6;
+    }
+    .imgt7{
+        grid-area: img7;
+    }
+    .imgt8{
+        grid-area: img8;
+    }
+    .imgt{
+        height: 80%;
+        max-width: 100%;
+    }
+    .parrafot{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 0.8rem;
+    }
+}
