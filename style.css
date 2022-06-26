@@ -101,16 +101,25 @@ body{
     height: 250px;
     width: 300px; 
 }
+.imga:hover{
+    translate: 50%; 
+}
 .click{
     font-size: 20px;
     color: black;
     padding-left: 10px;
+}
+.click:hover{
+    color: blue;
 }
 .mas{
     margin-top: 80px;
     margin-left: 30px;
     font-size: 20px;
     color: black;
+}
+.mas:hover{
+    color: blue;
 }
 
 .footerq{
