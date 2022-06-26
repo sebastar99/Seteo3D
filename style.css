@@ -161,6 +161,9 @@ body{
     list-style: none;
     align-items: center;
 } 
+.grid-list:hover{
+    transform: scale(1.8rem);
+}
 .grid-list a{
     font-size: 1.5rem;
     text-decoration: none;
