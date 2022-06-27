@@ -1,4 +1,7 @@
-*{
+.bg-color{
+    background-color: lightblue;
+}
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -187,7 +190,7 @@ body{
 }
 
 /*Inicio nosotros grid imagenes*/
-.grid-nosotros{
+/*.grid-nosotros{
     margin-top: 30px;
     display: grid;
     grid-template-rows: 200px 200px 200px 200px;
@@ -202,7 +205,7 @@ body{
     justify-items: center;
 } 
 /*grid main index*/
-.grid-main{
+/*.grid-main{
     display: grid;
     grid-template-areas:
      "impresoras resina"
@@ -266,7 +269,7 @@ body{
 }
 /*fin main index*/
 
-@media screen and (max-width: 720px) {
+/*@media screen and (max-width: 720px) {
     .navbar{
         display: flex;
         flex-direction: column;
@@ -356,4 +359,4 @@ body{
         text-align: center;
         margin-top: 0.8rem;
     }
-}
+} */

@@ -1,43 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seteo.3D</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Nuosu+SIL&display=swap');
-        </style>
-    <title>Trabajos</title>
-</head>
-<body class="body">
-    <!--Inicio Header-->
-    <header class="cabecera">
-        <!--Menu-->  
-        <nav class="navbar">
-            <img src="./img/Logo.png" alt="icono"  class="logo">
-            <ul class="grid-cabecera">
-                <li class="grid-list">
-                    <a href="index.html">Home</a>
-                </li>
-                <li class="grid-list">
-                    <a href="trabajos.html">Nuestros Trabajos</a>
-                </li>
-                <li class="grid-list">
-                    <a href="#contacto">Chatea con Nosotros</a>
-                </li>
-                <li class="grid-list">
-                    <a href="archivo.html" target="_blank">Archivos Publicos</a>
-                </li>
-                 <li class="grid-list">
-                     <a href="nosotros.html" target="_blank">Quienes Somos</a>
-                 </li>
-                <li class="grid-list">
-                    <a href="ubicacion.html" target="_blank">Ubicacion</a>
-                </li>
-            </ul>
-        </nav>
-    </header> 
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-color">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="trabajos.html">Nuestro Trabajos</a>
+                  <a class="nav-link" href="archivo.html">Archivos Publicos</a>
+                  <a class="nav-link" href="nosotros.html">Quienes Somos</a>
+                  <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
     <!--Fin Header-->  
 
     <!--Inicio section--> 
@@ -58,19 +46,30 @@
     </main>
     <!--fin section-->
 
-        <!--Inicio footer-->
-        <footer>
-            <div>
-                <img src="./img/wpp.png" alt="" class="iconoo"> +5491167****31
-            </div>
-            <div>
-                <img src="./img/gmail.png" alt="" class="iconoo"> datahola22@gmail.com
-            </div>
-            <div>
-                <a href="https://instagram.com/seteo.3D" target="_blank" id="contacto"><img src="./img/igpng.png" alt="" class="iconoo"></a>
-            </div>  
-        </footer>  
-         <!--Fin footer-->
+       <!--footer--> 
+    <footer class="pt-5">
+      <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="true" href="#">Redes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.google.com/intl/es-419/gmail/about/">datahola22@gmail.com</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.whatsapp.com/?lang=es" target="_blank">54 1167915431</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Contamos con nuestro instagram</h5>
+        <p class="card-text">Si tenes alguna pregunta, no dudes en consultarnos</p>
+        <a href="https://instagram.com/seteo.3D" class="btn btn-primary" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </footer>
+  <!--fin footer--> 
 
 </body>
 </html>
