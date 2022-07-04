@@ -1,0 +1,42 @@
+@import "archivo";
+@import "nosotros";
+@import "ubicacion";
+
+/* Index */
+.parrafo:hover{
+    color: red;
+}
+
+.nav-link:hover{
+    font-size: 19px;
+    color: blue;
+}
+
+.img1:hover{
+    transform: translate(20px);
+}
+.img1{
+    transition: all 0.8s;
+}
+
+.img2:hover{
+    transform: translate(20px);
+}
+.img2{
+    transition: all 0.8s;
+}
+
+.img3:hover{
+    transform: translate(20px);
+}
+.img3{
+    transition: all 0.8s;
+}
+
+.img4:hover{
+    transform: translate(20px);
+}
+.img4{
+    transition: all 0.8s;
+}
+/* Index*/
