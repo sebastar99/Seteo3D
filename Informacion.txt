@@ -11,4 +11,6 @@ Extend: %titulos, keys
   color: blueviolet;
 
 
-Keywords: 
+Keywords: seteo3D, impresiones, filamentos, resina, tornos cnc, plasticos, figuras
+
+<meta property="og:title" content="Seteo.3D Impresiones">
