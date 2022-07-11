@@ -1,0 +1,39 @@
+@import "../base/mixin";
+@import "../base/maps";
+/*Archivos*/
+.h1-archivo{
+    display: flex;
+    justify-content: center;
+}
+/*Archivos*/
+
+.img-archivo{
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    height: 300px;
+    transition: all 0.8s;
+}
+
+.img-archivo:hover{
+    transform: translate(25px);
+}
+
+
+.link:hover{
+    transform: (map-get($link, transform));
+}
+
+.vermas{
+    @include vermas(flex, center);
+}
+
+.link{
+    display: (map-get($link, display));
+    text-decoration: (map-get($link, text-decoration));
+    transition: (map-get($link, transition));
+    align-items: (map-get($link, align-items));
+
+}
+
+/*Fin archivos*/

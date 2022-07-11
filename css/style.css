@@ -17,13 +17,6 @@
   transform: translate(25px);
 }
 
-.link {
-  display: flex;
-  text-decoration: none;
-  transition: all 3s;
-  align-items: center;
-}
-
 .link:hover {
   transform: rotate(8deg);
 }
@@ -31,6 +24,13 @@
 .vermas {
   display: flex;
   justify-content: center;
+}
+
+.link {
+  display: flex;
+  text-decoration: none;
+  transition: all 3s;
+  align-items: center;
 }
 
 /*Fin archivos*/

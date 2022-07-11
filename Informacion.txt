@@ -1,1 +1,14 @@
-HTML con grid: INDEX y NOSOTROS
+Mixin: Ver mas (html: archivo)
+
+Mapa: $link, keys: display: (map-get($link, display));
+    text-decoration: (map-get($link, text-decoration));
+    transition: (map-get($link, transition));
+    align-items: (map-get($link, align-items));(html: archivo)
+
+Extend: %titulos, keys
+    display: flex;
+  justify-content: center;
+  color: blueviolet;
+
+
+Keywords: 

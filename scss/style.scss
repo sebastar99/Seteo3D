@@ -1,6 +1,9 @@
-@import "archivo";
-@import "nosotros";
-@import "ubicacion";
+@import "components/archivo";
+@import "components/nosotros";
+@import "components/ubicacion";
+@import "components/trabajos";
+@import "base/mixin";
+@import "base/maps";
 
 /* Index */
 .bg-color{
