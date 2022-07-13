@@ -1,4 +1,5 @@
-@mixin vermas($display, $justify){
+@mixin vermas($display, $justify, $decoration){
     display: $display;
     justify-content: $justify;
+    text-decoration: $decoration;
 }
