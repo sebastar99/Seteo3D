@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sebastar99/Seteo3D/issues"
   },
-  "homepage": "https://github.com/sebastar99/Seteo3D#readme"
+  "homepage": "https://github.com/sebastar99/Seteo3D#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }

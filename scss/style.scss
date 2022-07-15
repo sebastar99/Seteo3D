@@ -7,44 +7,46 @@
 @import "base/extend";
 
 /* Index */
-.bg-color{
-    background-color: lightblue;
-}
 
+header{
+    nav{
+    background-color: lightblue;
+        .nav-link{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            &:hover{
+                color: blue;
+            }
+        }   
+    }
+}
 .parrafo:hover{
     color: red;
 }
-
-.nav-link:hover{
-    font-size: 19px;
-    color: blue;
-}
-
-.img1:hover{
-    transform: translate(20px);
-}
 .img1{
     transition: all 0.8s;
+    &:hover{
+        transform: translate(20px);
+    }
 }
 
-.img2:hover{
-    transform: translate(20px);
-}
 .img2{
     transition: all 0.8s;
+    &:hover{
+        transform: translate(20px);
+    }
 }
 
-.img3:hover{
-    transform: translate(20px);
-}
 .img3{
     transition: all 0.8s;
+    &:hover{
+        transform: translate(20px);
+    }
 }
 
-.img4:hover{
-    transform: translate(20px);
-}
 .img4{
     transition: all 0.8s;
+    &:hover{
+        transform: translate(20px);
+    }
 }
 /* Index*/
